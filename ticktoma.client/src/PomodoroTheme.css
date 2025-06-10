@@ -1,0 +1,17 @@
+﻿/* PomodoroTheme.css */
+
+.navbar-pomodoro {
+    background-color: #d84315; /* arancione-rossastro pomodoro */
+}
+
+    .navbar-pomodoro .navbar-brand,
+    .navbar-pomodoro .nav-link {
+        color: #fff8f0; /* bianco caldo */
+        font-weight: 600;
+    }
+
+        .navbar-pomodoro .nav-link:hover,
+        .navbar-pomodoro .nav-link:focus,
+        .navbar-pomodoro .nav-link.active {
+            color: #ffd54f; /* giallo-arancio chiaro */
+        }

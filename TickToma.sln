@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ticktoma.client", "ticktoma.client\ticktoma.client.esproj", "{6F8C7193-C6A2-801D-BA19-D2C3653B46C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TickToma.Server", "TickToma.Server\TickToma.Server.csproj", "{C4C9EE94-74E9-445A-9D3E-717FC3F5445B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F8C7193-C6A2-801D-BA19-D2C3653B46C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8C7193-C6A2-801D-BA19-D2C3653B46C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8C7193-C6A2-801D-BA19-D2C3653B46C1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6F8C7193-C6A2-801D-BA19-D2C3653B46C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8C7193-C6A2-801D-BA19-D2C3653B46C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8C7193-C6A2-801D-BA19-D2C3653B46C1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C4C9EE94-74E9-445A-9D3E-717FC3F5445B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C9EE94-74E9-445A-9D3E-717FC3F5445B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C9EE94-74E9-445A-9D3E-717FC3F5445B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C9EE94-74E9-445A-9D3E-717FC3F5445B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {895C3EAA-5382-446A-A364-A78728CB42DE}
+	EndGlobalSection
+EndGlobal

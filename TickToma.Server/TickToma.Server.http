@@ -1,0 +1,6 @@
+@TickToma.Server_HostAddress = http://localhost:5225
+
+GET {{TickToma.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

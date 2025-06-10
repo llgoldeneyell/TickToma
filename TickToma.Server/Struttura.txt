@@ -1,0 +1,75 @@
+﻿🧩 Struttura funzionale di TickToma (app timer Pomodoro)
+1. Home / Dashboard
+Obiettivo: accoglienza, breve descrizione dell’app e accesso rapido alle funzioni principali
+
+Elementi principali:
+
+Logo + nome TickToma (con tema pomodoro)
+
+Breve spiegazione: “Gestisci i tuoi Pomodoro con TickToma”
+
+Pulsante “Inizia il Timer” che porta alla schermata Timer
+
+Link o bottone per accedere alle Impostazioni
+
+2. Timer
+Obiettivo: il cuore dell’app, gestisce il ciclo Pomodoro (lavoro-pausa)
+
+Elementi principali:
+
+Timer visuale (grande numero che conta i minuti e secondi)
+
+Pulsanti: Start/Pausa, Reset
+
+Indicatore ciclo: “Pomodoro 1 di 4” o “Pausa breve” o “Pausa lunga”
+
+Barra di avanzamento o cerchio animato che si riempie col tempo
+
+Eventuale suono o notifica al termine di ogni intervallo
+
+3. Impostazioni
+Obiettivo: personalizzare durata dei cicli e preferenze
+
+Elementi principali:
+
+Campi per impostare durata Pomodoro, pausa breve, pausa lunga (in minuti)
+
+Switch per abilitare/disabilitare suoni di notifica
+
+Tema chiaro/scuro o tema “pomodoro”
+
+Salva modifiche
+
+4. Pagina Patreon / Accesso Membro
+Obiettivo: gestione utenti Patreon, accesso a contenuti riservati
+
+Elementi principali:
+
+Pulsante login tramite Patreon (OAuth)
+
+Visualizzazione stato abbonamento (attivo, scaduto)
+
+Accesso ai progetti esclusivi (link, download, video)
+
+Modulo per suggerire nuovi progetti da realizzare
+
+🎨 Layout grafico e UX
+Navbar sempre visibile in alto con logo e link a Home, Timer, Impostazioni, Accesso Patreon
+
+Layout pulito, responsive (mobile e desktop)
+
+Colori caldi e accoglienti, basati su rosso/arancio (pomodoro), verde per pause
+
+Uso di animazioni morbide per timer e transizioni pagine
+
+Font leggibili, icone intuitive (timer, play, pausa, impostazioni)
+
+🚀 Funzionalità avanzate future (ma non ora)
+Sincronizzazione timer tra dispositivi (con backend)
+
+Notifiche push (browser o app)
+
+Dashboard con statistiche produttività
+
+Chat o forum per membri Patreon
+

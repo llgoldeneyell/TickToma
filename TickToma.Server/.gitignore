@@ -1,0 +1,13 @@
+﻿# Output di build .NET
+bin/
+obj/
+out/
+
+# File di log e temporanei
+*.log
+*.user
+*.suo
+
+# Configurazioni locali
+appsettings.Development.json
+*.db
