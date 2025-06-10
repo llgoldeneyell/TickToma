@@ -1,4 +1,4 @@
-
+﻿
 namespace TickToma.Server
 {
     public class Program
@@ -22,9 +22,8 @@ namespace TickToma.Server
             if (app.Environment.IsDevelopment())
             {
                 app.MapOpenApi();
+                app.UseHttpsRedirection();
             }
-
-            app.UseHttpsRedirection();
 
             app.UseAuthorization();
 
